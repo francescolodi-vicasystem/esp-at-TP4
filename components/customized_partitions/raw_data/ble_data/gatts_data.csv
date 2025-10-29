@@ -1,32 +1,18 @@
 # index,uuid_len,uuid,perm,max_len,cur_len,value
-# servizio 2706 - modalità cloudbridge,,,,,,
+# servizio 2706 - modalità cloudbridge
 0,16,0x2800,0x01,2,2,2706
-# caratteristica 6000 - scrittura comandi,,,,,,
+# caratteristica 6000 - scrittura comandi
 1,16,0x2803,0x11,1,1,0A
 2,16,0x6000,0x11,512,512,
-# caratteristica 5000 - lettura e notifiche,,,,,,
+# caratteristica 5000 - lettura e notifiche
 3,16,0x2803,0x01,1,1,12
-4,16,0x5000,0x01,256,256,
-# servizio 1d14d6eefd634fa1bfa48f47b42119f0 - Silabs OTA,,,,,,
-5,16,0x2800,0x01,16,16,1d14d6eefd634fa1bfa48f47b42119f0
-# caratteristica 0x984227F334FC4045A5D02C581F81A153 - OTA DATA,,,,,,
-6,16,0x2803,0x01,1,1,0C
-7,128,0x984227F334FC4045A5D02C581F81A153,0x10,512,512,
-# caratteristica 0x984227F334FC4045A5D02C581F81A153 - OTA CONTROL,,,,,,
-8,16,0x2803,0x01,1,1,8
-9,128,0xF7BF3564FB6D4E5388A45E37E0326063,0x10,32,32,
-# servizio 2706 - modalità cloudbridge,,,,,,
-0,16,0x2800,0x01,2,2,2706
-# caratteristica 6000 - scrittura comandi,,,,,,
-1,16,0x2803,0x11,1,1,0A
-2,16,0x6000,0x11,512,512,
-# caratteristica 5000 - lettura e notifiche,,,,,,
-3,16,0x2803,0x01,1,1,12
-4,16,0x5000,0x01,256,256,
-# servizio 1d14d6eefd634fa1bfa48f47b42119f0 - Silabs OTA,,,,,,
-5,16,0x2800,0x01,16,16,1d14d6eefd634fa1bfa48f47b42119f0
-# caratteristica 0x984227F334FC4045A5D02C581F81A153 - OTA DATA,,,,,,
-6,16,0x2803,0x01,1,1,0C
-7,128,0x984227F334FC4045A5D02C581F81A153,0x10,512,512,
-# caratteristica 0x984227F334FC4045A5D02C581F81A153 - OTA CONTROL,,,,,,
-8,16,0x2803,0x01,1,1,8
+4,16,0x5000,0x01,512,512,
+5,16,0x2902,0x11,2,2,0000
+# servizio 1d14d6eefd634fa1bfa48f47b42119f0 - Silabs OTA
+6,16,0x2800,0x01,16,16,1d14d6eefd634fa1bfa48f47b42119f0
+# caratteristica 0x984227F334FC4045A5D02C581F81A153 - OTA DATA
+7,16,0x2803,0x01,1,1,0C
+8,128,0x984227F334FC4045A5D02C581F81A153,0x10,512,512,
+# caratteristica 0x984227F334FC4045A5D02C581F81A153 - OTA CONTROL
+9,16,0x2803,0x01,1,1,08
+10,128,0xF7BF3564FB6D4E5388A45E37E0326063,0x10,32,32,
